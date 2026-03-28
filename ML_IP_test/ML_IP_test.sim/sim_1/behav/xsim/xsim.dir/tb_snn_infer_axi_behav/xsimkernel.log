@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_snn_infer_axi_behav/xsimk.exe -simmode gui -wdb tb_snn_infer_axi_behav.wdb -simrunnum 0 -socket 51772
+Design successfully loaded
+Design Loading Memory Usage: 10832 KB (Peak: 10832 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 11708 KB (Peak: 11708 KB)
+Simulation CPU Usage: 155 ms

@@ -1,0 +1,23 @@
+sv xilinx_vip -i "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" --include "C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/include" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/00fe/hdl/verilog" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/a415" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/axi_vip_pkg.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/axi4stream_vip_if.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/axi_vip_if.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/clk_vip_if.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/hdl/rst_vip_if.sv" \
+
+sv xpm -i "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" --include "C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/include" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/00fe/hdl/verilog" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/a415" \
+"C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+"C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+verilog xil_defaultlib -i "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" --include "C:/AMDDesignTools/2025.2/Vivado/data/xilinx_vip/include" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/00fe/hdl/verilog" --include "../../../ML_IP_test.gen/sources_1/bd/design_1/ipshared/a415" \
+"../../../ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

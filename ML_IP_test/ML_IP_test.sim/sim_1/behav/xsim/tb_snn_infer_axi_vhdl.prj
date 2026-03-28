@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ML_IP_test.ip_user_files/bd/design_1/ip/design_1_snn_infer_0_0/hdl/ip/snn_infer_fadd_32ns_32ns_32_5_full_dsp_1_ip/sim/snn_infer_fadd_32ns_32ns_32_5_full_dsp_1_ip.vhd" \
+"../../../../ML_IP_test.ip_user_files/bd/design_1/ip/design_1_snn_infer_0_0/hdl/ip/snn_infer_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/sim/snn_infer_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.vhd" \
+"../../../../ML_IP_test.ip_user_files/bd/design_1/ip/design_1_snn_infer_0_0/hdl/ip/snn_infer_fcmp_32ns_32ns_1_2_no_dsp_1_ip/sim/snn_infer_fcmp_32ns_32ns_1_2_no_dsp_1_ip.vhd" \
+"../../../../ML_IP_test.ip_user_files/bd/design_1/ip/design_1_snn_infer_0_0/hdl/ip/snn_infer_fdiv_32ns_32ns_32_10_no_dsp_1_ip/sim/snn_infer_fdiv_32ns_32ns_32_10_no_dsp_1_ip.vhd" \
+"../../../../ML_IP_test.ip_user_files/bd/design_1/ip/design_1_snn_infer_0_0/hdl/ip/snn_infer_fmul_32ns_32ns_32_4_max_dsp_1_ip/sim/snn_infer_fmul_32ns_32ns_32_4_max_dsp_1_ip.vhd" \
+"../../../../ML_IP_test.ip_user_files/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/sim/bd_afc3_psr_aclk_0.vhd" \
+"../../../../ML_IP_test.ip_user_files/bd/design_1/ip/design_1_rst_clk_wiz_100M_0/sim/design_1_rst_clk_wiz_100M_0.vhd" \
+
+# Do not sort compile order
+nosort

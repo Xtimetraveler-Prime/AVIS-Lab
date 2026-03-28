@@ -1,0 +1,15 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_15 -L axi_utils_v2_0_11 -L xbip_pipe_v3_0_11 -L xbip_dsp48_wrapper_v3_0_7 -L mult_gen_v12_0_24 -L floating_point_v7_1_21 -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_22 -L proc_sys_reset_v5_0_17 -L smartconnect_v1_0 -L axi_register_slice_v2_1_36 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_snn_infer_axi_behav xil_defaultlib.tb_snn_infer_axi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'axi_write' is not declared [C:/Users/dlego/Desktop/Vivado Projects/AVIS Lab/ML_IP_test/ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv:62]
+ERROR: [VRFC 10-2989] 'axi_write' is not declared [C:/Users/dlego/Desktop/Vivado Projects/AVIS Lab/ML_IP_test/ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv:63]
+ERROR: [VRFC 10-2989] 'axi_write' is not declared [C:/Users/dlego/Desktop/Vivado Projects/AVIS Lab/ML_IP_test/ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv:64]
+ERROR: [VRFC 10-2989] 'axi_write' is not declared [C:/Users/dlego/Desktop/Vivado Projects/AVIS Lab/ML_IP_test/ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv:67]
+ERROR: [VRFC 10-2989] 'axi_read' is not declared [C:/Users/dlego/Desktop/Vivado Projects/AVIS Lab/ML_IP_test/ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv:71]
+ERROR: [VRFC 10-2989] 'axi_read' is not declared [C:/Users/dlego/Desktop/Vivado Projects/AVIS Lab/ML_IP_test/ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv:75]
+ERROR: [VRFC 10-2989] 'axi_read' is not declared [C:/Users/dlego/Desktop/Vivado Projects/AVIS Lab/ML_IP_test/ML_IP_test.srcs/sim_1/new/tb_snn_infer_axi.sv:76]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
